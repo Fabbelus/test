@@ -3,6 +3,6 @@
 
 using namespace std;
 
-cout << Hejhopp << endl;
-
-
+int main (){
+cout << "Hejhopp" << endl;
+}
