@@ -2,13 +2,22 @@
 
 using namespace std;
 
-class Test {
+class Business {
+private:
+	int 1year = 23500;
+	int 3year = 25500;
+	int 5year = 26500;
+	int 10year = 30500;
 public:
-	int betyg = 5;
+	string employe;
+	string employe2;
 };
 
 int main() {
-	Test Fabbe;
-	cout << Fabbe.betyg << endl;
+	Business Employe;
+	cout << "What is the first employes name?" << endl;
+	cin >> Employe.employe;
+	cout << "What is the second employes name?" << endl;
+	cin >> Employe.employe2;
 
 }
